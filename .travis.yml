@@ -2,4 +2,8 @@ matrix:
   include:
     - language: php
 php:
-- 7.0
+  - 5.3
+  - 5.4
+  - 7.0
+script:
+  - bin/atoum --test-all
