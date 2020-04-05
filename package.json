@@ -6,6 +6,9 @@
   "directories": {
     "test": "tests"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "acorn": "^6.4.1",
     "accord": "^0.29.0",
@@ -535,7 +538,8 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "mocha": "^7.1.1"
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1"
   },
   "scripts": {
     "test": "test"
